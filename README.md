@@ -19,7 +19,7 @@ pip install detectron2==0.1.3 -f https://dl.fbaipublicfiles.com/detectron2/wheel
 
 The train.py is the best setting I submit on leaderboard.
 ```
-python train.py
+python train.py --json_path data/train.json
 ```
 ## Test
 To get the pred.csv and pred.json.
@@ -28,4 +28,3 @@ python test.py
 ```
 ## Performance Snapshot
 ![Performance Snapshot](./Snapshot.png)  
-# SelectedTopic25-HW3
